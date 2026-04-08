@@ -39,8 +39,37 @@
   text-decoration: none;
 }
 
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
 @media (max-width: 600px) {
+  .menu-toggle {
+    display: block;
+  }
+
   .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: #1a1a2e;
+    padding: 1rem 2rem;
+    gap: 1rem;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-cta {
     display: none;
   }
 }
