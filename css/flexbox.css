@@ -38,3 +38,9 @@
   border-radius: 6px;
   text-decoration: none;
 }
+
+@media (max-width: 600px) {
+  .nav-links {
+    display: none;
+  }
+}
