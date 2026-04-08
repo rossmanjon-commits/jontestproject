@@ -1,11 +1,11 @@
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
   background: #1a1a2e;
-  flex-direction: column;
-  position: sticky; top: 0;
+  position: sticky;
+  top: 0;
 }
 
 .nav-logo {
