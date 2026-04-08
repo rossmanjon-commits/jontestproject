@@ -1,9 +1,11 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 1rem 2rem;
   background: #1a1a2e;
+  flex-direction: column;
+  position: sticky; top: 0;
 }
 
 .nav-logo {
@@ -14,7 +16,7 @@
 
 .nav-links {
   display: flex;       /* nested flex! */
-  gap: 2rem;
+  gap: .5rem;
   list-style: none;
   margin: 0;
   padding: 0;
